@@ -1,0 +1,220 @@
+body{
+    background-image: url(background.png);
+    background-size: 100% 100%;
+
+      
+    font-family: Arial;
+}
+
+
+
+.child { 
+    display: inline-block;
+    color:#eb201c; 
+}
+
+.neoncolor{
+     color: #fff;
+  text-shadow:
+    0 0 7px #eb201c,
+    0 0 10px #eb201c,
+    0 0 21px #eb201c,
+    0 0 42px #eb201c,
+    0 0 82px #eb201c,
+    0 0 92px #eb201c,
+    0 0 102px #eb201c,
+    0 0 151px #eb201c;
+}
+
+
+
+.image{
+    width: 30%;
+   
+    margin: 1px;
+    margin-left: 150px;
+    float: left;
+  
+    background-size: 100% 100%;
+  
+}
+
+.welcome{
+    
+    margin-left: 200px;
+    font-size: 50px;
+    font-family: sans-serif;
+  
+    position: fixed;
+}
+
+.center{
+    text-align: center;
+    
+}
+
+.SeeProducts{
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    border: 2px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: lightblue  ;
+    color: black;
+}
+
+.SeeProducts:hover{
+    background-color: blue;
+}
+
+
+/* This part is for Products.html*/
+
+
+
+
+
+
+.logo{
+    width: 15%;
+    height: 150px;
+    display: inline-block; 
+   background-image: url(logo2.png);
+   background-size:100% 100%;
+
+}
+
+.drinks{
+    width: 50%;
+    height: 150px;
+    margin-left: 10px;
+    border: 1px solid red;
+    display: inline-block; 
+       background-image: url(picture.png);
+       background-color: 100% 100%;
+}
+
+.Box{
+    border: 2px solid red;
+    border-radius: 2px;
+    width: 10%;
+    height: 200px;
+    margin-left: 50px;
+   display: inline-table;
+    font-size: 20px;
+    color: white;
+    background-color: #9866c5;
+}
+
+.Box:hover{
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+
+/* This part is for RegularMilktea.html*/
+
+
+.title{
+    font-size: 50px;
+    font-family: arial;
+}
+
+.description{
+    background-color: peachpuff;
+    border: 1px solid blue;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+}
+
+.desc{
+    color: blue;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.rectangle{
+     
+    width: 100%;
+    height: 100px;
+}
+
+.page{
+    border: 1px solid blue;
+    width: 2%;
+    height: 26px;
+    display: inline-block;
+    background-color: lightblue;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: poppins;
+
+}
+
+
+
+/* this part is for AboutUs.html */
+
+.border{
+   
+    width: 15%;
+    height: 150px;
+    background-image: url(logo2.png);
+   background-size:100% 100%;
+}
+
+.text{
+    
+     width: 10%;
+     height: 150px;
+    float: left;
+    font-size: 30px;
+     display: inline-table;
+}
+
+
+.Wide{
+    width: 100%;
+    height: 400px;
+    border: 1px solid red;
+}
+
+.sideL{
+    width: 50%;
+    height: 400px;
+    float: left;
+    border: 1px solid blue;
+}
+
+.sideR{
+    width: 49.6%;
+    height: 400px;
+    float: right;
+    border: 1px solid green;
+
+}
+
+
+
+/* This part is for ContactInfo.html */
+
+.Contact{
+    width: 30%;
+    font-size: 20px;
+    float: left;
+   
+}
+
+.map{
+    float: right;
+    width: 30%;
+    
+}
